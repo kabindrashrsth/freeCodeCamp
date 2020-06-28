@@ -24,7 +24,7 @@ export const UniversalNav = ({
       <SearchBar innerRef={searchBarRef} />
     </div>
     <div className='universal-nav-middle'>
-      <Link id='universal-nav-logo' to='/learn'>
+      <Link id='universal-nav-logo' to='/'>
         <NavLogo />
         <span className='sr-only'>freeCodeCamp.org</span>
       </Link>
